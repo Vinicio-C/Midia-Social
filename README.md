@@ -38,3 +38,47 @@ Sistema de procura de usuários cadastrados em banco de dados, mostrando os perf
 
 index.html
 Mostra os posts de pessoas que você segue, sugestões de usuários para seguir, sistema de curtidas de posts, download da imagem do post, upload de post, sistemas para sair da conta, configurações da conta e ver seu próprio perfil
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Inglish version:
+
+# Social media
+Creating Social Media in Django
+
+IMPORTANT
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+If you don't know django you need to use the following commands in cmd - Command Prompt to make the database work.
+In the folder where the manage.py file is, run the following commands
+
+This command is used to check if updates have been made to the database:
+python manage.py makemigrations
+
+This command is used to send these updates to the database:
+python manage.py migrate
+
+And finally, to make the site work:
+python manage.py runserver
+
+-------------------------------------------------- -------------------------------------------------- -------------------------------------------------- ----------
+
+Project carried out in Python using the Django framework, it was a very basic project because it does not have the same functions that a social media site would normally have, it has several screens, starting with the first one:
+
+signup.html
+Created for user registration with the following requirements - Username, email, password and password confirmation
+
+signin.html
+Used to log into an account with the requirements - Username and Password
+
+All from now on require a user login confirmation
+
+setting.html
+Configure user profile with: profile picture, biography and location.
+
+profile.html
+Here we have the user's posts, profile picture, biography, location, how many posts he has, how many profiles he follows and how many follow him
+
+search.html
+Search system for users registered in the database, showing user profiles based on the searched user name
+
+index.html
+Shows the posts of people you follow, suggested users to follow, post likes system, post image download, post upload, account logout systems, account settings and view your own profile
