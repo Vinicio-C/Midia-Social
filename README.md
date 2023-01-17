@@ -6,13 +6,13 @@ IMPORTANTE
 Se você não conhece django precisa utilizar os seguintes comandos no cmd - Prompt de comando para fazer o banco de dados funcionar.
 Na pasta onde está o arquivo manage.py realizar os seguintes comandos
 
-Este comando serve para verificar se foram feitas atualizações no banco de dados
+Este comando serve para verificar se foram feitas atualizações no banco de dados:
 python manage.py makemigrations
 
-Este comando serve para enviar essas atualizações para o banco
+Este comando serve para enviar essas atualizações para o banco:
 python manage.py migrate
 
-E por fim, para fazer o site funcionar
+E por fim, para fazer o site funcionar:
 python manage.py runserver
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
